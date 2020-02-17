@@ -1,0 +1,32 @@
+2020-02-17T08:16:11+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T08:16:46+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T08:17:35+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T08:17:53+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T08:18:22+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T08:18:52+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T08:19:13+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-17T10:03:31+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) or const (T_CONST) in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\function\f_login_vendor.php on line 4
+
+2020-02-17T10:04:39+00:00 CRITICAL Uncaught Error: Call to a member function login() on null in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php:16
+Stack trace:
+#0 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-includes\template-loader.php(98): include()
+#1 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-blog-header.php(19): require_once('C:\\DEVELOPMENT\\...')
+#2 C:\DEVELOPMENT\xampp\htdocs\brandplus\index.php(17): require('C:\\DEVELOPMENT\\...')
+#3 {main}
+  thrown in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php on line 16
+
+2020-02-17T10:06:58+00:00 CRITICAL Uncaught Error: Call to a member function login() on null in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php:16
+Stack trace:
+#0 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-includes\template-loader.php(98): include()
+#1 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-blog-header.php(19): require_once('C:\\DEVELOPMENT\\...')
+#2 C:\DEVELOPMENT\xampp\htdocs\brandplus\index.php(17): require('C:\\DEVELOPMENT\\...')
+#3 {main}
+  thrown in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php on line 16
+

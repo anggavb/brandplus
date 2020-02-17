@@ -20,6 +20,9 @@ update_option( 'flatsome_wup_buyer', 'hengky' );
 // Custom link menu sidebar woocommerce front end
 // require('custom/woocommerce-sidebar-account.php');
 
+// public function custom
+require('brandplus/function/f_login_vendor.php');
+
 // membuat role baru - vendor
 add_role(
   'vendor',

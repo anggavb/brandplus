@@ -1,0 +1,16 @@
+2020-02-19T19:30:34+00:00 CRITICAL Uncaught Error: Call to a member function login() on null in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php:16
+Stack trace:
+#0 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-includes\template-loader.php(98): include()
+#1 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-blog-header.php(19): require_once('C:\\DEVELOPMENT\\...')
+#2 C:\DEVELOPMENT\xampp\htdocs\brandplus\index.php(17): require('C:\\DEVELOPMENT\\...')
+#3 {main}
+  thrown in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php on line 16
+
+2020-02-19T19:31:34+00:00 CRITICAL Uncaught Error: Call to a member function login() on null in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php:16
+Stack trace:
+#0 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-includes\template-loader.php(98): include()
+#1 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-blog-header.php(19): require_once('C:\\DEVELOPMENT\\...')
+#2 C:\DEVELOPMENT\xampp\htdocs\brandplus\index.php(17): require('C:\\DEVELOPMENT\\...')
+#3 {main}
+  thrown in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\login-vendor.php on line 16
+

@@ -2,6 +2,7 @@
 /**
 * Template Name: [custom] Login Vendor Form
 */
+ob_start();
 ?>
 
 <?php get_header(); ?>
@@ -10,10 +11,11 @@
 
 	$user = wp_get_current_user();
 
-	if ( !in_array( 'vendor', (array) $user->roles) ) {
+	// if ( !in_array( 'vendor', (array) $user->roles ) ) {
+	if ( !in_array( 'administrator', (array) $user->roles ) ) {
 		if ( $_POST ) {
 			$login = new vendor();
-			return $vendor->login();
+				$login->login();
 		} else {
 
 ?>
@@ -23,7 +25,7 @@
 			<input id="username" type="text" name="username" placeholder="Masukkan Username" value="">
 		</label>
 		<label for="password">Password
-			<input id="password" type="text" name="password" placeholder="Masukkan Password" value="">
+			<input id="password" type="password" name="password" placeholder="Masukkan Password" value="">
 		</label>
 
 		<div class="g-recaptcha" data-sitekey="6LffvY8UAAAAAFEHw4rUnSuL9tS99Ar6Zf6OUT8U"></div>

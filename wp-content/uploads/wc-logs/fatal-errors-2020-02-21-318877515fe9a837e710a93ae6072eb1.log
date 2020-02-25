@@ -1,0 +1,4 @@
+2020-02-21T09:07:14+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+
+2020-02-21T19:08:49+00:00 CRITICAL require(): Failed opening required 'http://localhost/brandplus/wp-content/themes/flatsome-child/rewardsystem/core/core-rewards.php' (include_path='C:\DEVELOPMENT\xampp\php\PEAR') in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\woocommerce\myaccount\dashboard-links.php on line 2
+

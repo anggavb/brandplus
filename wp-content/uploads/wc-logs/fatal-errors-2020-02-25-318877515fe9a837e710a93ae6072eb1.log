@@ -1,0 +1,24 @@
+2020-02-25T01:10:45+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:163
+Stack trace:
+#0 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\product-list.php(23): WC_Product->__construct(32)
+#3 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-includes\template-loader.php(98): include('C:\\DEVELOPMENT\\...')
+#4 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-blog-header.php(19): require_once('C:\\DEVELOPMENT\\...')
+#5 C:\DEVELOPMENT\xampp\htdocs\brandplus\index.php(17): require('C:\\DEVELOPMENT\\...')
+#6 {main}
+  thrown in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 163
+
+2020-02-25T01:15:05+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:163
+Stack trace:
+#0 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(135): WC_Data_Store->read(Object(WC_Product))
+#2 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\brandplus\product-list.php(23): WC_Product->__construct(32)
+#3 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-includes\template-loader.php(98): include('C:\\DEVELOPMENT\\...')
+#4 C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-blog-header.php(19): require_once('C:\\DEVELOPMENT\\...')
+#5 C:\DEVELOPMENT\xampp\htdocs\brandplus\index.php(17): require('C:\\DEVELOPMENT\\...')
+#6 {main}
+  thrown in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 163
+
+2020-02-25T02:01:34+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\DEVELOPMENT\xampp\htdocs\brandplus\wp-content\themes\flatsome-child\functions.php on line 53
+

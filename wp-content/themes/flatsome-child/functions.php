@@ -29,15 +29,26 @@ add_role(
   __( 'Vendor' ),
   array(
     'read'         => true,  // true allows this capability
+    // 'add_posts' => true,
     'edit_posts'   => true,
     'delete_posts'   => true,
+    'manage_woocommerce' => true,
+    'view_woocommerce_reports' => true,
+    'manage_product_terms' => true,
+    'add_product_terms' => true,
+    'edit_product_terms' => true,
+    'delete_product_terms' => true,
+    'assign_product_terms' => true,
+    'manage_categories' => true,
   )
 );
+// remove_role('vendor');
 
 // funtion beda menu
 function my_wp_nav_menu_args( $args = '' ) {
-  $user = wp_get_current_user();
-  if( in_array( 'vendor', (array) $user->roles ) ) {
+  // $user = wp_get_current_user();
+  // if( in_array( 'vendor', (array) $user->roles ) ) {
+  if( get_current_user_id() ) {
     $args['menu'] = 'loged_vendor';
   } else {
     $args['menu'] = 'front';
@@ -45,3 +56,20 @@ function my_wp_nav_menu_args( $args = '' ) {
   return $args;
 }
 add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
+
+// add menu post category - product
+// add_action( 'init', 'my_new_category_product' );
+// function my_new_category_product() {
+//     register_post_type( 'asd',
+//         array(
+//         'labels' => array(
+//             'name' => __( 'Products' ),
+//             'singular_name' => __( 'Product' ),
+//             'add_new' => __( 'Add Product' ),
+//           ),
+//         'desciption' => 'Product list by Vendor',
+//         'public' => true,
+//         // 'has_archive' => true,
+//         )
+//     );
+// }

@@ -16,6 +16,10 @@ if ( !in_array( 'administrator', (array) $user->roles ) ) {
 
 <h1>Product List</h1>
 
+<form action="<?= site_url()."/input-product" ?>" method="post">
+	<button type="submit" name="button">Add Product</button>
+</form>
+
 <?php
 $params = array('posts_per_page' => 5, 'post_type' => 'product', 'author' => get_current_user_id());
 $wc_query = new WP_Query($params);
@@ -39,6 +43,7 @@ $product = get_product(get_the_ID());
 					<?php echo $product->get_rating_html(); ?>
 					<br>
 					<code>Stock: <?php echo $product->is_in_stock() ?></code>
+					<a href="#">Update</a>
 
      </li>
      <?php endwhile; ?>
